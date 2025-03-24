@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="UTF-8" /> 
+    <title>Ejercicio de FOrmulario</title> 
+</head> 
+<body> 
+    <form action="#" name="solucionFormulario"> 
+        <label for="nombre">Nombre</label> 
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" maxlength="30"> 
+ 
+        <label for="email">Email</label> 
+        <input type="text" id="email" name="email" placeholder="correo@empresa.com" maxlength="30"> 
+        <label for="asunto">Asunto</label> 
+         
+        <select name="asunto" id="asunto" > 
+            <option value="InformacionWeb">Pedir Informacion Web</option> 
+            <option value="CitaPrevia">Solicitar Cita Previa</option> 
+            <option value="Otros">Otros</option> 
+            
+ 
+        <label for="marketing">¿Cómo nos has conocido?</label> 
+        <div class="marketing"> 
+            <input type="checkbox" value="amigo" id="amigo"><label for="amigo">Un Amigo</label> 
+            <input type="checkbox" value="google" id="googleando"><label for="google">Un Amigo</label> 
+            <input type="checkbox" value="redsocial" id="redsocial"><label for="redsocial">Un Amigo</label> 
+            <input type="checkbox" value="otros" id="otros"><label for="otros">Un Amigo</label> 
+        </div> 
+ 
+        <label for="mensaje">Escribe tu mensaje</label> 
+        <textarea name="mensaje" id="mensaje" maxlength="300"></textarea> 
+        <input type="checkbox" value="Acepta_RGPD" id="rgpd" required><label for="rgpd" class="rgpd">He Leído 
+y acepto el <a href="#" target="_blank">aviso legal y la política de privacidad</a></label> 
+ 
+        <mark>@tecnico-honduras</mark> 
+    </body> 
+</html> 

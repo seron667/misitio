@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Trabajo con CSS</title>
+    <style>
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            border: 1px solid rgb(182, 85, 74);
+        }
+        .header, .footer {
+            background-color: rgb(55, 130, 176);
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header img {
+            float: left;
+            margin-right: 20px;
+        }
+        .content {
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: aquamarine;
+            padding: 20px;
+        }
+        .main {
+            width: 60%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="img/img1.png" width="100px" height="100px" alt="Logotipo">
+            <h1>Mi página web</h1>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Menú</h2>
+                <ul>
+                    <li><a href="Ejercicio del 1 al 10.html">Ejercicio del 1 al 10</a></li>
+                    <li><a href="Ejercicio del 11 al 20.html">Ejercicio del 11 al 20</a></li>
+                    <li><a href="Ejercicio Formulario.html">Ejercicio de formulario</a></li>
+                    <li><a href="Ejercicio Formulario.html">Ejercicio div</a></li>
+                    <li><a href="Ejercicio del 11 al 20 tablas con css.html">Ejercicio tablas CSS</a></li>
+                    <li><a href="#">Otros ejercicios</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>Contenido Principal</h2>
+                <p>Bienvenido a mi página web.</p>
+                <p>Mi nombre es Luis Fernando Zeron Diaz, soy de 12vo grado del área de informática con orientación en robótica.</p>
+                <p>El área que más me gusta es desarrollo web y mis planes son salir del colegio y estudiar una ingeniería en la UNAH.</p>
+                
+                <h3>Fortalezas</h3>
+                <ul>
+                    <li>Creatividad</li>
+                    <li>Liderazgo</li>
+                    <li>Trabajo en equipo (depende de quién)</li>
+                    <li>Adaptabilidad</li>
+                </ul>
+
+                <h3>Debilidades</h3>
+                <ol>
+                    <li>Falta de disciplina</li>
+                    <li>Miedo al fracaso</li>
+                    <li>Mala organización</li>
+                    <li>Falta de confianza</li>
+                    <li>Procrastinación</li>
+                </ol>
+
+                <p>Me gusta hacer ciclismo, jugar en la Play, soy fan de series y películas, y me encanta el anime.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2025 - ¿Qué se supone que pongo aquí?</p>
+        </div>
+    </div>
+</body>
+</html>
